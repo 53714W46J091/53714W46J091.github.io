@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contoh</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="icon" href="lokasi-icon">
+  </head>
+  <body>
+    <!--Sidebar-->
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-teal" style="display:none" id="mySidebar">
+      <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Tutup &times;</button>
+      <a href="#tk" class="w3-bar-item w3-button">Tentang Kami</a>
+      <a href="#vm" class="w3-bar-item w3-button">Visi dan Misi</a>
+      <a href="#ko" class="w3-bar-item w3-button">Kontak</a>
+    </div>
+    <!--Content-->
+     <!--heading-->
+    <div class="w3-teal">
+      <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+    </div>
+    <div class="w3-display-container">
+      <img src="media/sch-pic.jpg" class="w3-image w3-opacity-min">
+      <div class="w3-padding w3-display-middle">
+        <h1 style="color: #000000"><b>masukkan teks di sini</b></h1>
+      </div>
+    </div>
+     <!--card-->
+     <div class="w3-container w3-margin w3-light-grey" id="tk">
+       <h2><b>Tentang Kami</b></h2>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida, justo in commodo suscipit, magna purus lobortis nisi, vitae iaculis tellus nisi id ipsum. Sed ut leo hendrerit lorem blandit sollicitudin nec sit amet est. Aenean blandit enim sed justo fermentum, at ornare nunc lacinia.</p>
+     </div>
+
+    <div class="w3-container w3-margin w3-light-grey" id="vm">
+      <h2><b>Visi</b></h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida, justo in commodo suscipit, magna purus lobortis nisi, vitae iaculis tellus nisi id ipsum. Sed ut leo hendrerit lorem blandit sollicitudin nec sit amet est. Aenean blandit enim sed justo fermentum, at ornare nunc lacinia.</p>
+      <h2><b>Misi</b></h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida, justo in commodo suscipit, magna purus lobortis nisi, vitae iaculis tellus nisi id ipsum. Sed ut leo hendrerit lorem blandit sollicitudin nec sit amet est. Aenean blandit enim sed justo fermentum, at ornare nunc lacinia.</p>
+    </div>
+
+    <div class="w3-container w3-margin w3-light-grey" id="ko">
+      <h2><b>Kontak</b></h2>
+      <p>Telepon: <a href="tel: +0123456789">+0123456789</a></p>
+      <p>Alamat: Jl. Contoh No. 123</p>
+      <p>E-Mail: <a href="mailto:contoh@contoh.com">contoh@contoh.com</a></p>
+    </div>
+
+    <!--footer--> <!--Please dont remove the credit-->
+    <div class="w3-bar w3-teal w3-center">
+      <p style="font-size: 10px;">© 2021 All rights reserved. Contoh Nama Organisasi | Made with <a href="https://www.w3schools.com">w3.css</a>. By <a href="https://myanimelist.net/profile/s3_j0d1">s3_j0d1</a></p>
+    </div>
+    <!--sidebar script-->
+    <script>
+      function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+      }
+      function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+      }
+    </script>
+  </body>
+</html>
