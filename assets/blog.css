@@ -1,0 +1,48 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+*::selection {
+    background: #C3073F;
+}
+body {
+    background-color: #1A1A1D;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: #88FF4D;
+}
+ul {
+    color: white;
+}
+.home {
+    margin: 0 0 16px 0;
+}
+.homeitem {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    font-weight: bold;
+}
+.homeitem:hover {
+    background-color: #4E4E50;
+}
+.greenbar {
+    background-color: #88FF4D;
+    color: #1A1A1D;
+    margin: 0 0 0 16px;
+}
+.greenbar h2 {
+    padding: 16px;
+}
+.footer {
+    background-color: #4E4E50;
+    text-align: center;
+    padding: 10px;
+}
+.white {
+    color: white;
+}
