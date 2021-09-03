@@ -37,7 +37,8 @@ body {
     max-width: 100%;
 }
 .code {
-    white-space: pre;
+    display: block;
+    word-wrap: break-word;
     background-color: #1A1A1D;
     color: whitesmoke;
     margin: 16px;
