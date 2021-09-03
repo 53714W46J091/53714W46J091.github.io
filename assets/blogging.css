@@ -37,7 +37,7 @@ body {
     max-width: 100%;
 }
 .code {
-    display: block;
+    white-space: pre;
     background-color: #1A1A1D;
     color: whitesmoke;
     margin: 16px;
