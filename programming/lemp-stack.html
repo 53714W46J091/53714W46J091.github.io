@@ -15,7 +15,7 @@
         <!--Content-->
         <div class="text">
             <h1>Tutorial <b>LEMP</b> Stack (<b>L</b>inux, <b>N</b>ginx, <b>M</b>ySQL, <b>P</b>HP)</h1>
-            Time:  7/1/2021 <br>
+            Time:  7/1/2021 
             By Setiawan Jodi
             <hr>
         </div>
@@ -56,7 +56,7 @@
             <h4><b>Installasi Nginx</b></h4>
             <p>Sebelum mulai kita harus mengupdate sistem kita</p>
             <div class="code">
-                sudo apt update <br>
+                sudo apt update 
                 sudo apt upgrade
             </div>
             <p>Sekarang kita install nginx</p>
@@ -77,33 +77,33 @@
             </div>
             <p>Ganti beberapa konfig di <i>index</i></p>
             <div class="code">
-                # Sebelum <br>
-                index index.html index.htm index.nginx-debian.html; <br>
-                <br>
-                 # Sesudah <br>
+                # Sebelum 
+                index index.html index.htm index.nginx-debian.html; 
+                
+                 # Sesudah 
                 index index.php index.html index.htm;
             </div>
             <p>Ganti beberapa konfig di <i>location ~ \.php$</i></p>
             <div class="code">
-                # Sebelum <br>
-                <br>
-                #location ~ \.php$ { <br>
-                #include snippets/fastcgi-php.conf; <br>
-                # With php-fpm (or other unix sockets): <br>
-                #fastcgi_pass unix:/var/run/php/php7.4-fpm.sock; <br>
-                # With php-cgi (or other tcp sockets): <br>
-                #fastcgi_pass 127.0.0.1:9000; <br>
-                #}<br>
-                <br>
-                # Sesudah <br>
-                <br>
-                location ~ \.php$ { <br>
-                include snippets/fastcgi-php.conf; <br>
-                # With php-fpm (or other unix sockets): <br>
-                fastcgi_pass unix:/var/run/php/php7.4-fpm.sock; <br>
-                # With php-cgi (or other tcp sockets): <br>
-                #fastcgi_pass 127.0.0.1:9000; <br>
-                } <br>
+                # Sebelum 
+                
+                #location ~ \.php$ { 
+                #include snippets/fastcgi-php.conf; 
+                # With php-fpm (or other unix sockets): 
+                #fastcgi_pass unix:/var/run/php/php7.4-fpm.sock; 
+                # With php-cgi (or other tcp sockets): 
+                #fastcgi_pass 127.0.0.1:9000; 
+                #}
+                
+                # Sesudah 
+                
+                location ~ \.php$ { 
+                include snippets/fastcgi-php.conf; 
+                # With php-fpm (or other unix sockets): 
+                fastcgi_pass unix:/var/run/php/php7.4-fpm.sock; 
+                # With php-cgi (or other tcp sockets): 
+                #fastcgi_pass 127.0.0.1:9000; 
+                } 
             </div>
         </div>
 
