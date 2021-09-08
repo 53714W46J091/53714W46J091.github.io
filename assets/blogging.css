@@ -37,13 +37,20 @@ body {
     max-width: 100%;
 }
 .code {
-    display: block;
-    word-wrap: break-word;
+    white-space: pre;
+    overflow-x: scroll;
     background-color: #1A1A1D;
     color: whitesmoke;
     margin: 16px;
     border-radius: 5px;
     padding: 10px;
+}
+.code::-webkit-scrollbar {
+    width: 15px;
+}
+.code::-webkit-scrollbar-thumb {
+    background: #4E4E50;
+    border-radius: 5px 5px 5px 5px;
 }
 .info {
     margin: 16px;
