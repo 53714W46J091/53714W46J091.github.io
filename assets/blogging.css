@@ -4,9 +4,11 @@
 *::selection {
     background: #C3073F;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
-    scroll-behavior: smooth;
 }
 .home {
     background-color: #1A1A1D;
