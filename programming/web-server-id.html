@@ -54,7 +54,7 @@
       <div class="code">
         nano /etc/apache2/apache2.conf
       </div>
-      <p>Cari bagian <i>&lt;directory /var/www/html&gt;</i>. Dan ganti <b>AllowOverride None</b> ke <b>AllowOverride All</b></p>
+      <p>Cari bagian <i>&lt;directory /var/www/&gt;</i>. Dan ganti <b>AllowOverride None</b> ke <b>AllowOverride All</b></p>
       <div class="code">
         ## Sebelum
 
@@ -170,7 +170,8 @@
     <!--VSFTPD-->
     <div class="text" id="vsftpd">
       <h2>VSFTPD</h2>
-      <p>Untuk fitur FTP kita akan menggunakan VSFTPD. Lokasi folder FTP akan diarahkan ke <i>/var/www/html</i>. Untuk memasang perangkat lunak tersebut bisa dilakukan dengan</p>
+      <p>Perintah ini disalin dari <a href="https://www.ismoothblog.com/2020/12/how-to-install-ftp-server-on-ubuntu-with-vsftpd.html">iSmooth Blog How to Install FTP Server for Apache or Nginx on Ubuntu 20.04</a>. adi terima kasih iSmooth Blog</p>
+      <p>Untuk fitur FTP kita akan menggunakan VSFTPD. Lokasi folder FTP akan diarahkan ke <i>/var/www/</i>. Untuk memasang perangkat lunak tersebut bisa dilakukan dengan</p>
       <div class="code">
         apt install vsftpd && chgrp -R www-data /var/www/* && find /var/www -type f -exec chmod 664 {} \; && find /var/www -type d -exec chmod 775 {} \; && find /var/www -type d -exec chmod g+s {} \; && chown root:root /var/www && ufw allow 20,21,22,990,40000:50000/tcp
       </div>
