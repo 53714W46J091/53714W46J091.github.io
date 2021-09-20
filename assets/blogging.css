@@ -20,6 +20,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     font-weight: bold;
+    transition: 0.2s;
 }
 .homeitem:hover {
     background-color: #4E4E50;
@@ -38,6 +39,7 @@ body {
 }
 .image {
     max-width: 100%;
+    border-radius: 5px;
 }
 .code {
     white-space: pre;
@@ -59,9 +61,11 @@ body {
     margin: 16px;
     padding: 16px;
     background-color: #DDFFFF;
+    border-radius: 5px;
 }
 .warn {
     margin: 16px;
     padding: 16px;
     background-color: #FFFFCC;
+    border-radius: 5px;
 }
