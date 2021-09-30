@@ -7,7 +7,7 @@ Disallow: /assets
 Disallow: /trashbin
 Disallow: /mycertificates
 
-User-agent: Googlebot-Mobile
+User-agent: *
 Allow: /
 Allow: /programming
 Allow: /blog
@@ -15,8 +15,5 @@ Allow: /etc
 Disallow: /assets
 Disallow: /trashbin
 Disallow: /mycertificates
-
-User-agent: *
-Disallow: /
 
 Sitemap: https://53714w46j091.github.io/sitemap.xml
