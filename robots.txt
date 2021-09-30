@@ -3,5 +3,8 @@ Disallow: /nogooglebot/
 
 User-agent: *
 Allow: /
+Disallow: /assets
+Disallow: /trashbin
+Disallow: /mycertificates
 
 Sitemap: https://53714w46j091.github.io/sitemap.xml
