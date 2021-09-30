@@ -3,11 +3,11 @@ Disallow: /nogooglebot/
 
 User-agent: *
 Allow: /
-Allow: /programming
-Allow: /blog
-Allow: /etc
-Disallow: /assets
-Disallow: /trashbin
-Disallow: /mycertificates
+Allow: /programming/
+Allow: /blog/
+Allow: /etc/
+Disallow: /assets/
+Disallow: /trashbin/
+Disallow: /mycertificates/
 
 Sitemap: https://53714w46j091.github.io/sitemap.xml
