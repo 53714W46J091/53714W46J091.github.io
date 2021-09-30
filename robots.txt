@@ -3,6 +3,9 @@ Disallow: /nogooglebot/
 
 User-agent: *
 Allow: /
+Allow: /programming
+Allow: /blog
+Allow: /etc
 Disallow: /assets
 Disallow: /trashbin
 Disallow: /mycertificates
