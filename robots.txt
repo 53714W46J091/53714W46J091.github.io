@@ -1,13 +1,22 @@
 User-agent: Googlebot
-Disallow: /nogooglebot/
+Allow: /
+Allow: /programming
+Allow: /blog
+Allow: /etc
+Disallow: /assets
+Disallow: /trashbin
+Disallow: /mycertificates
+
+User-agent: Googlebot-Mobile
+Allow: /
+Allow: /programming
+Allow: /blog
+Allow: /etc
+Disallow: /assets
+Disallow: /trashbin
+Disallow: /mycertificates
 
 User-agent: *
-Allow: /
-Allow: /programming/
-Allow: /blog/
-Allow: /etc/
-Disallow: /assets/
-Disallow: /trashbin/
-Disallow: /mycertificates/
+Disallow: /
 
 Sitemap: https://53714w46j091.github.io/sitemap.xml
