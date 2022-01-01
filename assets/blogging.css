@@ -2,7 +2,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 *::selection {
-    background: #C3073F;
+    background: lightblue;
 }
 html {
     scroll-behavior: smooth;
